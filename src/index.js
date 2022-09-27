@@ -4,7 +4,7 @@ import App from './App.js';
 import { BrowserRouter } from "react-router-dom"
 
 ReactDOM.render(
-  <BrowserRouter basename="/formula-wonders">
+  <BrowserRouter>
     <App />
   </BrowserRouter>,
   document.getElementById('root')
