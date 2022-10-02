@@ -17,8 +17,8 @@ function App() {
       </header>
       <Navbar/>
       <main>
-        <About/>
         <Routes>
+          <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
