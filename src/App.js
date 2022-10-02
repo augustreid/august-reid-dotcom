@@ -17,6 +17,7 @@ function App() {
       </header>
       <Navbar/>
       <main>
+        <About/>
         <Routes>
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
